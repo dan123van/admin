@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+1.- Descargar el repositorio de github
+2.- Tener instalado yarn 
+    1.- Instalar yarn con el comando: npm install --global yarn
+3.- Instalar dependencias con yarn ejecutando el comando: yarn (en la terminal solo va yarn y enter)
+4.- Correr el servidor con el comando: yarn dev
+
 First, run the development server:
 
 ```bash
