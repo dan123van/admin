@@ -8,8 +8,7 @@ const DataComponent = () => {
     useEffect(() => {
 
         const fetchData = async () => {
-            const result = await axios.get('https://rich-tan-panther-veil.cyclic.app/admin/1')
-            console.log('result ', result);
+            const result = await axios.get(process.env.URLBACKEND + '/admin')
             setData(result.data)
         }
         
